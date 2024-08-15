@@ -36,3 +36,55 @@ li a {
 li a:hover {
   color: #00ffff;
 }
+
+main {
+  color: #f0ffff;
+}
+
+#intro {
+  /* margin: 60px auto; */
+  text-align: center;
+  padding: 50px;
+}
+
+.tagline {
+  padding: 20px;
+  font-size: 52px;
+  font-weight: 500;
+}
+
+#name {
+  color: #89cff0;
+}
+
+.introduction {
+  margin: 40px 80px;
+}
+
+#about {
+  margin: auto;
+  padding: 80px;
+  max-width: 100%;
+}
+
+.section-heading {
+  color: #89cff0;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  opacity: 0.7;
+}
+
+.section-image img {
+  height: 100px;
+  width: 100px;
+}
