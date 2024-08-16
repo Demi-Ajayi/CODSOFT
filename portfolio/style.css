@@ -7,10 +7,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 30px;
 }
 
 .logo a {
   font-weight: 700;
+  font-size: 18px;
   color: #f0ffff;
   padding: 30px;
   text-decoration: none;
@@ -22,7 +24,7 @@ body {
 
 li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 20px;
   font-weight: 500;
   font-size: 15px;
   padding: 8px;
