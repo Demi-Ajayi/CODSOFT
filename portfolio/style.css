@@ -61,30 +61,35 @@ main {
   margin: 40px 80px;
 }
 
-#about {
-  margin: auto;
-  padding: 80px;
-  max-width: 100%;
-}
-
 .section-heading {
   color: #89cff0;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 30px;
+  margin: auto;
+  padding: 80px;
+  max-width: 100%;
 }
 
 .section-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
 .description {
   opacity: 0.7;
+  padding: 0 100px;
+  text-align: center;
 }
 
-.section-image img {
-  height: 100px;
-  width: 100px;
+.section-image {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }
