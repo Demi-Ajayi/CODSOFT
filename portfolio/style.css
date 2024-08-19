@@ -184,15 +184,27 @@ img {
   margin-top: 20px;
 }
 
+.button-container > button > a {
+  text-decoration: none;
+}
+
+.live-demo a {
+  color: #000435;
+}
+
+.repo a {
+  color: #f0ffff;
+}
+
 .live-demo {
   padding: 15px;
   font-size: 15px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   border-radius: 30px;
-  border: 1px solid #00ffff;
-  color: #f0ffff;
-  background-color: #000435;
+  border: 1px solid #000435;
+  color: #000435;
+  background-color: #f0ffff;
 }
 
 .live-demo:hover {
@@ -201,7 +213,7 @@ img {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   border-radius: 30px;
-  border: 1px solid #00ffff;
+  border: 1px solid #f0ffff;
   color: #000435;
   background-color: #89cff0;
   transition: 0.2s ease-in-out;
