@@ -43,4 +43,9 @@ input {
 
 .equal {
   width: 145px;
+  background-color: #f66700;
+}
+
+.operator {
+  color: #f66700;
 }
