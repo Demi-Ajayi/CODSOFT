@@ -4,5 +4,43 @@ body {
 
 .container {
   width: 100%;
-  background-color: aliceblue;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  margin: 10px;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.display input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+}
+
+.equal {
+  width: 145px;
 }
