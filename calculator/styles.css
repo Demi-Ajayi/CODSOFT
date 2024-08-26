@@ -1,0 +1,8 @@
+body {
+  font-family: monospace;
+}
+
+.container {
+  width: 100%;
+  background-color: aliceblue;
+}
