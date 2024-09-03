@@ -20,14 +20,16 @@ body {
   list-style-type: none;
 }
 
-li,
-a {
-  text-decoration: none;
+.nav-link {
   display: inline-block;
   margin-right: 20px;
   font-weight: 500;
   font-size: 15px;
   padding: 8px;
+}
+
+.nav-link a {
+  text-decoration: none;
   color: #78aba8;
 }
 
@@ -92,10 +94,66 @@ button:hover {
   transition: 0.2s ease-in-out;
 }
 
+section {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px;
+}
+
+.why {
+  margin-top: 80px;
+}
+
+.why > .section-content {
+  font-size: 20px;
+  padding: 20px 50px;
+  line-height: 1.5;
+}
+
+.types {
+  margin: 80px 30px 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.types > ul {
+  list-style: circle;
+}
+
+.types .section-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.how {
+  margin: 80px 30px 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+ol {
+  list-style: none;
+}
+
+.faq {
+  margin: 80px 30px 0 30px;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.answer {
+  color: #73a9ad;
+}
+
 footer {
   text-align: center;
   color: grey;
   font-size: 12px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 80px 0 30px 0;
 }
